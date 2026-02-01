@@ -2,6 +2,8 @@
 
 A real-time AI-powered screen capture system that detects people/characters and locks your mouse cursor onto them when you hold the 'E' key. Features a clean tabbed GUI for easy configuration.
 
+**🎯 Optimized for Python 3.12+**
+
 ## Features
 
 - **AI-based Person Detection** - Uses YOLO v8 to detect people/characters in games (CS:GO, Valorant, etc.)
@@ -13,11 +15,29 @@ A real-time AI-powered screen capture system that detects people/characters and 
 
 ## Installation
 
-1. Install Python 3.8+
-2. Install dependencies:
+**Requirements: Python 3.12+ (Optimized)**
+
+1. Download and install [Python 3.12](https://www.python.org/downloads/release/python-31212/)
+   - ✅ Check "Add Python to PATH" during installation
+   - ✅ Make sure Python 3.12 is your default Python version
+
+2. Navigate to the Tuffromai folder:
 ```bash
-pip install -r requirements.txt
+cd path\to\Tuffromai
 ```
+
+3. Run the installer:
+```bash
+python install.py
+```
+This will check your Python version and install all dependencies.
+
+4. After installation completes:
+```bash
+python launcher.py
+```
+
+**⚠️ Note:** This bot is optimized for Python 3.12+. While it may work on other versions, Python 3.12 guarantees full compatibility.
 
 ## Usage
 

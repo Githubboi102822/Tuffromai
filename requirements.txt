@@ -1,7 +1,8 @@
-mss==6.1.0
-opencv-python==4.8.1.78
-numpy==1.24.3
-pynput==1.7.6
-ultralytics==8.0.195
-pillow==10.0.0
-PyQt5==5.15.9
+mss>=6.1.0
+opencv-python>=4.10.0
+numpy>=2.0.0
+pynput>=1.7.6
+ultralytics>=8.1.0
+pillow>=10.0.0
+PyQt5>=5.15.9
+torch>=2.0.0

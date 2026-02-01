@@ -81,7 +81,6 @@ def capture_screen(region=None):
     frame = cv2.cvtColor(frame, cv2.COLOR_BGRA2BGR)
     return frame
 
-
 def detect_persons_yolo(frame):
     """
     Detect people/characters using YOLO

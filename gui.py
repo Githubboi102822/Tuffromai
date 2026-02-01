@@ -1,6 +1,7 @@
 """
 Tuff Bot GUI
 Clean tabbed interface for the Lock-On System
+Optimized for Python 3.12+
 """
 
 import sys
@@ -462,6 +463,13 @@ class TuffBotGUI(QMainWindow):
 
 def run_gui():
     """Run the GUI"""
+    # Check Python version
+    if sys.version_info.major != 3 or sys.version_info.minor < 12:
+        print(f"⚠️  WARNING: This bot is optimized for Python 3.12+")
+        print(f"You are using Python {sys.version_info.major}.{sys.version_info.minor}")
+        print("Some features may not work correctly.")
+        print("Download Python 3.12: https://www.python.org/downloads/release/python-31212/")
+    
     app = QApplication(sys.argv)
     gui = TuffBotGUI()
     gui.show()
