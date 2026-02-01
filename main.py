@@ -45,7 +45,7 @@ def on_press(key):
 
 
 def on_release(key):
-    """Handle key releas events"""
+    """Handle key release events"""
     global is_e_held
     try:
         if key.char == 'e' or key.char == 'E':
@@ -80,7 +80,7 @@ def capture_screen(region=None):
     frame = np.array(screenshot)
     frame = cv2.cvtColor(frame, cv2.COLOR_BGRA2BGR)
     return frame
-w
+
 
 def detect_persons_yolo(frame):
     """
